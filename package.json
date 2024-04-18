@@ -1,30 +1,14 @@
 {
-  "name": "yandex-market-language",
-  "version": "0.4.1",
-  "description": "Your own Yandex Market Language (YML) generator, with blackjack and validation",
-  "homepage": "https://github.com/LotusTM/yandex-market-language",
-  "author": "Serj Lavrin (https://github.com/ArmorDarks)",
+  "name": "yml-with-collections-support",
+  "version": "0.0.1",
+  "description": "Don't ready for production",
+  "homepage": "https://github.com/sergeev-s/yandex-market-language-with-collections-support",
+  "author": "Semyon Sergeev (https://github.com/sergeev-s)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LotusTM/yandex-market-language.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LotusTM/yandex-market-language/issues"
+    "url": "https://github.com/sergeev-s/yandex-market-language-with-collections-support.git"
   },
   "license": "Apache-2.0",
-  "keywords": [
-    "yandex",
-    "яндекс",
-    "market",
-    "маркет",
-    "language",
-    "yandex market",
-    "яндекс маркет",
-    "yandex market language",
-    "json",
-    "generator",
-    "validator"
-  ],
   "main": "./lib/yml",
   "dependencies": {
     "moment": "2.18.1",
