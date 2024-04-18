@@ -13,7 +13,8 @@ describe('Offer schema', () => {
       id: '12346',
       price: 1490,
       currencyId: 'RUR',
-      categoryId: '101'
+      categoryId: '101',
+      collectionId: ['123']
     })).not.toThrow()
   })
 
@@ -29,7 +30,8 @@ describe('Offer schema', () => {
       id: '12346',
       price: 1490,
       currencyId: 'RUR',
-      categoryId: '101'
+      categoryId: '101',
+      collectionId: ['123']
     })).not.toThrow()
   })
 

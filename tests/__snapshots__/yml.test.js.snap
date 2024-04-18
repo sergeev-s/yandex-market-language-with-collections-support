@@ -322,6 +322,7 @@ exports[`yml function should work correctly with max input 1`] = `
         <downloadable>true</downloadable>
         <rec>123,456</rec>
         <vat>2</vat>
+        <collectionId>123</collectionId>
       </offer>
       <offer type=\\"vendor.model\\" id=\\"1\\" available=\\"true\\" bid=\\"20\\" cbid=\\"50\\" fee=\\"10\\" group_id=\\"13\\">
         <typePrefix>Вафельница</typePrefix>
@@ -365,8 +366,31 @@ exports[`yml function should work correctly with max input 1`] = `
         <downloadable>true</downloadable>
         <rec>123,456</rec>
         <vat>2</vat>
+        <collectionId>321</collectionId>
       </offer>
     </offers>
+    <collections>
+      <collection collectionId="123">
+        <name>test-collection1</name>
+        <url>http://best.seller.ru/test-collection1</url>
+        <picture>http://best.seller.ru/img/large_123.jpg</picture>
+        <description>
+          <![CDATA[
+      <p>Some text.</p>
+    ]]>
+        </description>
+      </collection>
+      <collection collectionId="321">
+        <name>test-collection2</name>
+        <url>http://best.seller.ru/test-collection2</url>
+        <picture>http://best.seller.ru/img/large_321.jpg</picture>
+        <description>
+          <![CDATA[
+      <p>Some text.</p>
+    ]]>
+        </description>
+      </collection>
+    </collections>
   </shop>
 </yml_catalog>"
 `;
@@ -393,8 +417,21 @@ exports[`yml function should work correctly with min input 1`] = `
         <price>1490</price>
         <currencyId>RUR</currencyId>
         <categoryId>101</categoryId>
+        <collectionId>123</collectionId>
       </offer>
     </offers>
+    <collections>
+      <collection collectionId="123">
+        <name>test-collection1</name>
+        <url>http://best.seller.ru/test-collection1</url>
+        <picture>http://best.seller.ru/img/large_123.jpg</picture>
+        <description>
+          <![CDATA[
+      <p>Some text.</p>
+    ]]>
+        </description>
+      </collection>
+    </collections>
   </shop>
 </yml_catalog>"
 `;

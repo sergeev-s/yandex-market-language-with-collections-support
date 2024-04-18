@@ -55,7 +55,19 @@ const VALID_INPUT = {
       ],
       dimensions: [20, 30, 40],
       cpa: '1',
-      rec: ['123', '456']
+      rec: ['123', '456'],
+      collectionId: ['123']
+    }
+  ],
+  collections: [
+    {
+      collectionId: '123',
+      name: 'test-collection1',
+      url: 'http://best.seller.ru/test-collection1',
+      picture: ['http://best.seller.ru/img/large_123.jpg'],
+      description: `
+      <p>Some text.</p>
+    `
     }
   ]
 }
@@ -83,7 +95,19 @@ const MIN_VALID_INPUT = {
       id: '12346',
       price: 1490,
       currencyId: 'RUR',
-      categoryId: '101'
+      categoryId: '101',
+      collectionId: ['123']
+    }
+  ],
+  collections: [
+    {
+      collectionId: '123',
+      name: 'test-collection1',
+      url: 'http://best.seller.ru/test-collection1',
+      picture: ['http://best.seller.ru/img/large_123.jpg'],
+      description: `
+      <p>Some text.</p>
+    `
     }
   ]
 }
@@ -161,7 +185,8 @@ const MAX_VALID_INPUT = {
       dimensions: [10, 20, 30],
       downloadable: true,
       rec: ['123', '456'],
-      vat: 2
+      vat: 2,
+      collectionId: ['123']
     },
 
     // Free Offer
@@ -214,7 +239,29 @@ const MAX_VALID_INPUT = {
       dimensions: [10, 20, 30],
       downloadable: true,
       rec: ['123', '456'],
-      vat: 2
+      vat: 2,
+      collectionId: ['321']
+    }
+  ],
+  collections: [
+    {
+      collectionId: '123',
+      name: 'test-collection1',
+      url: 'http://best.seller.ru/test-collection1',
+      picture: ['http://best.seller.ru/img/large_123.jpg'],
+      description: `
+      <p>Some text.</p>
+    `
+    },
+
+    {
+      collectionId: '321',
+      name: 'test-collection2',
+      url: 'http://best.seller.ru/test-collection2',
+      picture: ['http://best.seller.ru/img/large_321.jpg'],
+      description: `
+      <p>Some text.</p>
+    `
     }
   ]
 }

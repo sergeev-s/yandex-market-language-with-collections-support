@@ -97,8 +97,21 @@ exports[`createYML function should create YML 1`] = `
         <dimensions>20/30/40</dimensions>
         <cpa>1</cpa>
         <rec>123,456</rec>
+        <collectionId>123</collectionId>
       </offer>
     </offers>
+    <collections>
+      <collection collectionId=\\"123\\">
+        <name>test-collection1</name>
+        <url>http://best.seller.ru/test-collection1</url>
+        <picture>http://best.seller.ru/img/large_123.jpg</picture>
+        <description>
+          <![CDATA[
+      <p>Some text.</p>
+    ]]>
+        </description>
+      </collection>
+    </collections>
   </shop>
 </yml_catalog>"
 `;
