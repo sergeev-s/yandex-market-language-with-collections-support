@@ -370,7 +370,7 @@ exports[`yml function should work correctly with max input 1`] = `
       </offer>
     </offers>
     <collections>
-      <collection collectionId="123">
+      <collection collectionId=\\"123\\">
         <name>test-collection1</name>
         <url>http://best.seller.ru/test-collection1</url>
         <picture>http://best.seller.ru/img/large_123.jpg</picture>
@@ -380,7 +380,7 @@ exports[`yml function should work correctly with max input 1`] = `
     ]]>
         </description>
       </collection>
-      <collection collectionId="321">
+      <collection collectionId=\\"321\\">
         <name>test-collection2</name>
         <url>http://best.seller.ru/test-collection2</url>
         <picture>http://best.seller.ru/img/large_321.jpg</picture>
@@ -421,7 +421,7 @@ exports[`yml function should work correctly with min input 1`] = `
       </offer>
     </offers>
     <collections>
-      <collection collectionId="123">
+      <collection collectionId=\\"123\\">
         <name>test-collection1</name>
         <url>http://best.seller.ru/test-collection1</url>
         <picture>http://best.seller.ru/img/large_123.jpg</picture>
