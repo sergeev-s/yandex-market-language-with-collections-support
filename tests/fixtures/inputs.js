@@ -61,7 +61,7 @@ const VALID_INPUT = {
   ],
   collections: [
     {
-      collectionId: '123',
+      id: '123',
       name: 'test-collection1',
       url: 'http://best.seller.ru/test-collection1',
       picture: ['http://best.seller.ru/img/large_123.jpg'],
@@ -101,7 +101,7 @@ const MIN_VALID_INPUT = {
   ],
   collections: [
     {
-      collectionId: '123',
+      id: '123',
       name: 'test-collection1',
       url: 'http://best.seller.ru/test-collection1',
       picture: ['http://best.seller.ru/img/large_123.jpg'],
@@ -245,7 +245,7 @@ const MAX_VALID_INPUT = {
   ],
   collections: [
     {
-      collectionId: '123',
+      id: '123',
       name: 'test-collection1',
       url: 'http://best.seller.ru/test-collection1',
       picture: ['http://best.seller.ru/img/large_123.jpg'],
@@ -255,7 +255,7 @@ const MAX_VALID_INPUT = {
     },
 
     {
-      collectionId: '321',
+      id: '321',
       name: 'test-collection2',
       url: 'http://best.seller.ru/test-collection2',
       picture: ['http://best.seller.ru/img/large_321.jpg'],
